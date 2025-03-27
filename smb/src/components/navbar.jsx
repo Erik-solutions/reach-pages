@@ -6,6 +6,8 @@ export default function NavBar() {
   const [count, setCount] = useState(0);
 
   return (
+
+    <nav>
     <div className='nav__container'>
 <div className='logos'>
 <img src={reactLogo} />
@@ -14,12 +16,12 @@ export default function NavBar() {
 </div>
 
       <ul>
-<li>Register</li>
-<li>Login</li>
-<li>Pricing</li>
+<li><a href="">Register</a></li>
+<li><a href="">Login</a></li>
+<li><a href="">Pricing </a></li>
 
 
       </ul>
-    </div>
+    </div> </nav>
   );
 }
