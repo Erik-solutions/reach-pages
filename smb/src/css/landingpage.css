@@ -1,0 +1,89 @@
+:root {
+    --font-size-sm: 1rem;  /* Define the custom variable with a unit */
+    --font-size-md: 1.4rem;
+    --font-size-lg: 2rem;
+    --font-size-xlg: 2.6rem:
+  }
+  
+
+
+
+
+.business__container {
+    
+    width:100%; /* Adjust width as needed */
+    padding: 16px;
+    height: auto; /* Makes sure the height adjusts based on the content */
+    display:grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; /* Center items horizontally */
+    box-sizing: border-box; /* Ensures padding is included in the width/height */
+    text-align: center; /* Optional, centers the content inside */
+   
+   
+
+}
+
+.business__container img {
+    width: 100%; /* Makes sure the image scales to fit within the container */
+    height: auto; /* Maintains the aspect ratio */
+    margin-bottom: 0;
+    max-width: 100%; /* Prevents the image from overflowing the container */
+    object-fit: cover; /* Optionally, use this to make sure the image covers the container properly */
+    border-radius: 7px;
+}
+
+.image_holder{
+border: 0.2px solid bisque;
+width: 70%;
+height: inherit;
+padding: 20px; /* Optional padding for better spacing */
+margin-top: 2rem;
+text-align: left;
+border-radius: 8px;
+
+
+}
+
+.image_holder h2,h4, p{
+    margin:0 auto;
+    
+}
+
+.image_holder h4{
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+    color: aqua;
+}
+
+.image_holder button{
+    width: 80%;
+    height: 2rem;
+    background: bisque;
+    margin: 1.6rem  0 0 1rem ;
+    cursor: pointer; 
+    border: 0;
+    border-radius: 6px;
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+}
+
+/******************************************handling the favourate icon ***********************************/
+
+.ratings__container{
+    display: flex;
+    width: 3.2rem;
+    align-items: center;
+}
+
+.name__holder{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ratings__container span{
+    color: white;
+    font-weight: 400;
+}

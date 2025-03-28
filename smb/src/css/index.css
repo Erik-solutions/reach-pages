@@ -18,7 +18,9 @@
   --font-size-sm: 1rem;  /* Define the custom variable with a unit */
   --font-size-md: 1.4rem;
   --font-size-lg: 2rem;
-  --font-size-xlg: 2.6rem:
+  --font-size-xlg: 2.6rem;
+    --span-color: #4D55CC;
+    --a-tag-color: beige;
 }
 
 
@@ -44,7 +46,7 @@ p{
 
 a{
   font-size: var(--font-size-md);
-  color: beige;
+  color:var(--a-tag-color);
   text-decoration: none;
 }
 

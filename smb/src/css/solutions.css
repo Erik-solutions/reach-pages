@@ -1,0 +1,152 @@
+:root {
+    --font-size-sm: 1rem;  /* Define the custom variable with a unit */
+    --font-size-md: 1.4rem;
+    --font-size-lg: 2rem;
+    --font-size-xlg: 2.6rem:
+  }
+
+.motive__container{
+   margin-bottom: 4rem;
+    padding: 4rem;
+
+}
+
+.motive__container h1{
+    font-size:3rem;
+}
+
+.motive__container p{
+    font-size: var(--font-size-md);
+    margin-bottom: 1rem;
+}
+
+.call__to__action {
+    width:36%;
+    height:inherit;
+    
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.call__to__action button{
+    height: 3rem;
+    width: 45%;
+    border: 0;
+    border-radius: 6px;
+    font-size: var(--font-size-sm);
+}
+.call__to__action > button:nth-child(1){
+    background:#4D55CC;
+}
+
+.call__to__action > button:nth-child(2){
+    background:#FFF5E4
+}
+
+/**************************************going to the business solutions categories section***********/
+.solutions__motive_solutions{
+    margin-bottom:6rem ;
+    
+}
+
+
+.solutions__motive_solutions h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.solutions__motive_solutions p{
+    font-size: var(--font-size-md);
+    
+}
+
+.business__solutions__list{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 12rem;
+    gap: 1rem;
+    height: inherit;
+    
+    
+    }
+
+.heading__content{
+    width: 80%;
+    margin: 0 auto;
+    /*padding-left: 10px;*/
+    display: flex;
+   
+    
+    align-items: center;
+}
+.heading__content h1{
+    margin-left: 1.4rem;
+}
+
+.heading__content span{
+    color: #4D55CC;
+    font-size: var(--font-size-lg);
+}
+
+
+.business__solution__container{
+    border: 1px solid bisque;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.business__solution__container h4{
+    margin: 0;
+    height: 12%;
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+
+}
+
+
+
+.business__solution__container ul{
+    text-align: left;
+    list-style: none;
+    bottom: 0;
+}
+
+.business__solution__container li {
+   
+    line-height: 28px;
+   padding:0;
+    margin: 0;
+    display: flex;             /* Makes <li> a flex container */
+    align-items: center;       /* Centers the content vertically */
+    position: relative;
+    
+  }
+  
+.business__solution__container li::before {
+    content: "\2022";  /* Unicode for bullet point */
+    color: rgb(29, 29, 142);       /* Bullet color */
+    font-size: 25px;    /* Bullet size */
+    
+    margin-right: 12px;
+    /*left: 0;            /* Positions bullet to the left of the list item */
+    
+   
+  }
+
+  .business__solution__container button{
+    margin:1rem auto;
+    height: 2rem;
+    width: 40%;
+    border: 0;
+    border-radius: 6px;
+    background: #FFF5E4;
+    bottom: 0;
+  }
+   
+
+

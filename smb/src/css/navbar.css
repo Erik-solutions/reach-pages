@@ -1,6 +1,12 @@
 
 
-
+:root {
+    --font-size-sm: 1rem;  /* Define the custom variable with a unit */
+    --font-size-md: 1.4rem;
+    --font-size-lg: 2rem;
+    --font-size-xlg: 2.6rem;
+  }
+  
 
 
 nav {
@@ -27,16 +33,17 @@ width: 30%;
 }
 
 
-ul {
+.nav__items {
     list-style:none;
     display:flex; 
     justify-content:space-evenly;
+    
     
     width: 28%;
 
 
 }
 
-ul li {
+.nav__items li {
     font-size: 1.4rem;
 }

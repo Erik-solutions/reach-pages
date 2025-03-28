@@ -1,0 +1,55 @@
+:root {
+    --font-size-sm: 1rem;  /* Define the custom variable with a unit */
+    --font-size-md: 1.4rem;
+    --font-size-lg: 2rem;
+    --font-size-xlg: 3rem;
+    --font-size-xxlg: 3.8rem;
+      --span-color: #4D55CC;
+      --a-tag-color: beige;
+  }
+
+
+.products__section__container{
+    margin: 4rem auto;
+    margin-top: 8rem;
+}
+
+.product__motive{
+    font-size: var(--font-size-lg);
+    font-weight: normal;
+    margin-bottom: 4rem;
+    
+   
+}
+
+.products__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.8rem;
+}
+.product_holder{
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid var(--a-tag-color);
+    border-radius: 8px;
+    width: 80%;
+}
+
+.product_holder span{
+    color: var(--span-color);
+    font-size: var(--font-size-lg);
+    margin-bottom: 2px;
+    
+}
+
+.product_holder  h1{
+    font-size: var(--font-size-md);
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.product_holder p{
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+    margin-bottom: 2px;
+}
