@@ -1,4 +1,4 @@
-import reading from '..assets/images/reading-4330761_1280.jpg'
+import reading from '../assets/images/reading-4330761_1280.jpg'
 import books from '../assets/images/books-2463779_1280.jpg'
 
 
