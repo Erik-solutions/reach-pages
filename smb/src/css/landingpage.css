@@ -2,9 +2,13 @@
     --font-size-sm: 1rem;  /* Define the custom variable with a unit */
     --font-size-md: 1.4rem;
     --font-size-lg: 2rem;
-    --font-size-xlg: 2.6rem:
+    --font-size-xlg: 3rem;
+    --font-size-xxlg: 3.8rem;
+      --span-color: #4D55CC;
+      --a-tag-color: beige;
+      --color-background:#131010;
   }
-  
+
 
 
 
@@ -15,7 +19,7 @@
     padding: 16px;
     height: auto; /* Makes sure the height adjusts based on the content */
     display:grid;
-    gap: 2rem;
+    gap: 2.2rem;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center; /* Center items horizontally */
     box-sizing: border-box; /* Ensures padding is included in the width/height */
@@ -36,7 +40,7 @@
 
 .image_holder{
 border: 0.2px solid bisque;
-width: 70%;
+width: 90%;
 height: inherit;
 padding: 20px; /* Optional padding for better spacing */
 margin-top: 2rem;
@@ -86,4 +90,54 @@ border-radius: 8px;
 .ratings__container span{
     color: white;
     font-weight: 400;
+}
+
+.business__section__form input{
+    margin: auto 0;
+    height: 60%;
+   padding: 0.5rem;
+    background: var(--color-background);
+    border-radius: 6px;
+    width: 60%;
+}
+
+.business__section__form {
+    width: 40%;
+    
+    display: flex;  
+}
+
+.business__section__form span{
+    margin: auto 0;
+    font-size: var(--font-size-lg);
+}
+.business__nav{
+    display: flex;
+    
+    justify-content: space-between;  
+}
+.business__nav h1{
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+}
+
+.business__section__form button{
+    margin: auto 0;
+    margin-left: 2rem;
+    height: 60%;
+   padding: 0.5rem;
+    background: var(--color-background);
+    border-radius: 6px;
+    width: 25%;
+    color: var(--a-tag-color);
+    
+    display: flex;
+    
+}
+
+.business__section__form button span{
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+    margin: auto 2px;
+
 }

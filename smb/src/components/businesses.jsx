@@ -30,6 +30,10 @@ export default function FavourateBusinesses() {
             description: 'An online marketplace for various products',
         }*/
     ];
+
+    const categoryList= [
+        'All','Technology', 'Retail', 'Services'
+    ]
     
     function IsFavourate(){
         const [ratings, setRatings] = useState(0); // Initialize the ratings state
@@ -88,14 +92,50 @@ export default function FavourateBusinesses() {
         );
     }
 
+    function SearchIcon (){
+
+        
+
+        let icon= <span className="material-symbols-outlined">search </span>
+
+       
+
+     
+         return icon
+    }
+
+ function CategoryRender({categoryList}){
+        return( <div className='categories'>
+            { categoryList.map((item,index) => (
+                <button key={index} className="category"> {item}</button>
+                ))
+            }
+            </div>
+        )
+     }
 
 
-
+ 
 
     //return(<BusinessRender/>
 return (
 <>
+<section className='business__section'> 
+<div className='business__nav'>  <h1> Business Directory</h1> 
+<form className='business__section__form' action="">
+
+    <input type="search" placeholder='Search business...'/> <SearchIcon/> 
+
+    <button> <span className="material-symbols-outlined">
+filter_alt </span> <span>Filter</span> </button>
+ </form>
+
+ </div>
+
+<CategoryRender categoryList={categoryList}/>
+
 <BusinessRender businessItems={businessItems} />
+</section>
 
 </>
     );

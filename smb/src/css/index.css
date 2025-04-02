@@ -22,7 +22,10 @@
     --span-color: #4D55CC;
     --a-tag-color: beige;
 }
-
+h1, h2, h3, h4, h6,p,a,span{
+  font-family:roboto;
+  font-weight: normal;
+}
 
 
 body {
@@ -33,6 +36,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
  
+}
+h1, h2, h3, h4, h6,p,a,span{
+  font-family: questrial;
 }
 
 h1 {
