@@ -1,0 +1,94 @@
+/* src/Sidebar.css */
+:root {
+  --font-size-sm: 1rem;  /* Define the custom variable with a unit */
+  --font-size-md: 1.4rem;
+  --font-size-lg: 2rem;
+  --font-size-xlg: 3rem;
+  --font-size-xxlg: 3.8rem;
+    --span-color: #4D55CC;
+    --a-tag-color: beige;
+    --color-background:#131010;
+}
+
+
+
+
+.sidebar{
+    position: fixed;
+    background: #4D55CC;
+    top: 0;
+    width: 250px;
+    /*border-right:1px solid var(--a-tag-color);*/
+    height: 100%;
+    transition: left 0.3s ease;
+    padding-top: 60px;
+    z-index: 999;
+    margin: 0;
+    transition: width 0.3s; 
+    
+  }
+  .company__logo{
+    
+    text-align: left;
+  }
+  .company__logo span{
+    display: none;
+    padding-left: 1rem;
+    text-align: left;
+    }
+
+  .company__logo div {
+    
+   
+    font-size: var(--font-size-lg);
+    margin: 0 auto;
+    padding-left: 1rem;
+    text-align: left;
+    display: flex;
+  }
+
+  .company__logo div h1{
+    font-size: var(--font-size-lg);
+  }
+
+  .nav__items{
+   
+    width: 100%;
+    height: 60%;
+  }
+
+  .nav__items ul{
+  list-style: none;
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly ;
+  padding: 1rem;
+  height: 90%;
+}
+
+  .nav__items ul li{
+    display: flex;
+    height: 2rem;
+   
+   /*border: 1px solid var(--a-tag-color);*/
+   width: 90%;
+   text-align: left;
+    
+  }
+  .nav__item {
+   
+  margin-left:1rem;
+ 
+
+  }
+
+  .nav__items ul li span {
+    font-size: var(--font-size-md);
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+   
+  }
+
+  

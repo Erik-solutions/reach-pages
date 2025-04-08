@@ -1,0 +1,47 @@
+/* src/Sidebar.css */
+:root {
+    --font-size-sm: 1rem;  /* Define the custom variable with a unit */
+    --font-size-md: 1.4rem;
+    --font-size-lg: 2rem;
+    --font-size-xlg: 3rem;
+    --font-size-xxlg: 3.8rem;
+      --span-color: #4D55CC;
+      --a-tag-color: beige;
+      --color-background:#131010;
+  }
+  
+  
+  
+  
+  .sidebar{
+      
+      top: 0;
+      width: 250px;
+      /*border-right:1px solid var(--a-tag-color);*/
+      height: 100%;
+      transition: left 0.3s ease;
+      padding-top: 60px;
+      z-index: 999;
+      margin: 0;
+      
+    }
+
+    .dashboard__motive{
+        text-align: left;
+    }
+
+
+.dashboard__motive h1{
+    font-size:var(--font-size-lg);
+    
+}
+
+.finacial_metrix{
+
+    background: red;
+    position: fixed;
+    width: 74%;
+    margin-right: 1rem;
+    right: 0;
+
+}
